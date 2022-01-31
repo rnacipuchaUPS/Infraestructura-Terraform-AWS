@@ -5,3 +5,7 @@ variable "cidr" {
 
 variable "ssh_pub_path" {
     description = "Directorio de la llave SSH publica"
+}
+
+
+
