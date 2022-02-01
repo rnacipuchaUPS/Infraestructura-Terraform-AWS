@@ -41,8 +41,8 @@ resource "aws_security_group" "servidor_web" {
 # Regla de seguridad http para el grupo de seguridad creado
 resource "aws_security_group_rule" "http"{
     type = "ingress"
-    from_port = 80
-    to_port = 80
+    from_port = 8080
+    to_port = 8080
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
